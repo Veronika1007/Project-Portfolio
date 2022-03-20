@@ -1,7 +1,29 @@
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Ramaraja", serif;
 }
 
+h1 {
+  font-weight: bold;
+  font-size: 44px;
+}
 p {
   font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(255, 225, 159, 1) 100%
+  );
+}
+.introduction {
+  text-align: center;
+  padding: 150px;
 }
