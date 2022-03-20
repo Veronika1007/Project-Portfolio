@@ -1,18 +1,21 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Ramaraja", serif;
+:root {
+  --heading-font: "Ramaraja", serif;
+  --body-font: "Noto Sans", sans-serif;
 }
 
 h1 {
   font-weight: bold;
   font-size: 44px;
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--heading-font);
+}
 p {
-  font-family: "Noto Sans", sans-serif;
+  font-family: var(--body-font);
 }
 
 img {
@@ -28,4 +31,8 @@ img {
     rgba(255, 243, 159, 1) 40%,
     rgba(167, 159, 255, 1) 100%
   );
+}
+
+.navbar-nav {
+  margin-left: auto;
 }
