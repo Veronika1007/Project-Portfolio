@@ -24,6 +24,15 @@ img {
   border-radius: 20px;
 }
 
+.contact-me-list {
+  list-style-type: none;
+  text-align: center;
+  padding: 40px;
+}
+.contact {
+  padding: 40px;
+}
+
 .introduction-homepage {
   text-align: center;
   padding: 150px;
@@ -73,4 +82,17 @@ img {
   width: 100%;
   border-radius: 0%;
   max-width: 300px;
+}
+
+.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 0%;
+  max-width: 70px;
+}
+
+footer {
+  font-size: 10px;
 }
