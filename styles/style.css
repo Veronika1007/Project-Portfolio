@@ -13,6 +13,7 @@ h3,
 h4,
 h5 {
   font-family: var(--heading-font);
+  text-align: center;
 }
 p {
   font-family: var(--body-font);
@@ -23,9 +24,19 @@ img {
   border-radius: 20px;
 }
 
-.introduction {
+.introduction-homepage {
   text-align: center;
   padding: 150px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 243, 159, 1) 40%,
+    rgba(167, 159, 255, 1) 100%
+  );
+}
+
+.introduction {
+  text-align: center;
+  padding: 60px;
   background: linear-gradient(
     90deg,
     rgba(255, 243, 159, 1) 40%,
