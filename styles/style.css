@@ -24,6 +24,25 @@ img {
   border-radius: 20px;
 }
 
+footer {
+  font-size: 10px;
+}
+
+@media (max-width: 900px) {
+  home-content {
+    margin: 30px;
+  }
+  introduction-homepage {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  about-content {
+    text-align: center;
+    padding: 2px;
+  }
+}
+
 .contact-me-list {
   list-style-type: none;
   text-align: center;
@@ -91,8 +110,4 @@ img {
   width: 100%;
   border-radius: 0%;
   max-width: 70px;
-}
-
-footer {
-  font-size: 10px;
 }
