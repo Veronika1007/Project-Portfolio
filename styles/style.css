@@ -42,12 +42,6 @@ footer {
     padding: 2px;
   }
 }
-@media (min-width: 1200px) {
-  cv-body {
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-}
 
 .contact-me-list {
   list-style-type: none;
