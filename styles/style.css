@@ -29,18 +29,22 @@ footer {
 }
 
 @media (max-width: 900px) {
-  home-content {
+  .home-content {
     margin: 30px;
   }
-  introduction-homepage {
+  .introduction-homepage {
     margin: 0px;
     padding: 0px;
     text-align: center;
   }
-  about-content {
-    text-align: center;
+  .about-content {
     padding: 2px;
   }
+}
+
+.about-content {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .contact-me-list {
