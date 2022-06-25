@@ -109,9 +109,19 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
   width: 100%;
   border-radius: 0%;
   max-width: 300px;
+}
+.websiteImage {
+  display: block;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 10px;
+  width: 100%;
+  border-radius: 4;
+  max-width: 400px;
 }
 
 .icon {
